@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("book.jpg");
+    background-repeat: repeat;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 30%;
+    height: 50%;  
+}
+#img-div {
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: 17701f;
+}
+.div-about {
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: 17701f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.div-paragraph {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 90px;
+    padding-right: 200px;
+    text-align: justify;
+    float: center;
+    color: 131a36;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+.div-bib {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: 17701f;
+}
+.small-para {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 90px;
+    padding-right: 200px;
+    text-align: center;
+    float: center;
+    color: 131a36;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.div-h3 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Pacifico', cursive;
+    color: 17701f;
+}
+.div-table {
+    font-family: 'Kalam', cursive;
+    margin: 0 auto;
+    font-size: 20px;
+    table-layout: auto;
+    width: 80%;
+    height: 20%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div-short {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    float: center;
+    color: 131a36;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
